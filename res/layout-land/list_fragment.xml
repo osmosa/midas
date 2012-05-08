@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <fragment
+        android:id="@+id/list_fragment"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="35"
+        android:name="org.meruvian.midas.activity.fragment.ListViewFragment" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/osmosa_fragment"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="65"
+        android:name="org.meruvian.midas.activity.fragment.OsmosaMapFragment" >
+    </fragment>
+
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Midas Osmosa</string>
+    <string name="toggle_myloc">My Location</string>
+    <string name="menu_change_server">Change Map Server</string>
+    <string name="osmosa_server">osmosa.net</string>
+    <string name="openstreetmap_server">openstreetmap.org</string>
+</resources>

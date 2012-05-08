@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@id/menu_toggle_myloc"
+        android:icon="@android:drawable/ic_menu_mylocation"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/toggle_myloc"/>
+    <item android:id="@id/menu_change_server" 
+        android:title="@string/menu_change_server"
+		android:showAsAction="never">
+        <menu>
+            <item android:id="@+id/osmosa_server"
+                  android:title="@string/osmosa_server" />
+            <item android:id="@+id/openstreetmap_server"
+                  android:title="@string/openstreetmap_server" />
+        </menu>
+    </item>
+</menu>
